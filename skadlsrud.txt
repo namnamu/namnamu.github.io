@@ -1,0 +1,24 @@
+java강의 ch1.
+
+hello.java 소스코드가 jdk를 거쳐서 hello.class라는 기계어 코드가 생성된다.
+그리고 실행됨
+자바는 시스템이나 운영체제 없이 실행된다.
+윈도우 c는 맥북, 리눅스 c로 100%호환이 안된다.
+자바 가상머신이 있어서 어느 곳에서든 돌아갈 수 있는 것이다.
+한줄씩읽어 실행시키는 과정을 인터프리터라고 한다.
+자바는 인터프리터와 컴파일러를 모두 거치는 언어.
+파이썬은 작성하면 인터프리터를 거쳐서 바로 결과가 보여짐. 
+c는 인터프리터 과정없이 컴파일을 하면 바로 돌아감.
+
+package 패키지명;//프로젝트 명이 아님 주의
+public class 파일명(대문자로 시작){
+    public static void main(String[] args)
+    {
+        System.out.println("Hello world");
+    }
+}
+
+자바의 기본 형태
+filename: hello.java
+하나의 파일에 하나의 클래스를 작성하는 경우
+import hellotest;
