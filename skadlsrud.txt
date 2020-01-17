@@ -19,6 +19,14 @@ public class 파일명(대문자로 시작){
 }
 
 자바의 기본 형태
-filename: hello.java
+filename: Hello.java  -반드시 클래스 명이 파일 명이어야 함.
 하나의 파일에 하나의 클래스를 작성하는 경우
-import hellotest;
+import hellotest;// 프로젝트 명이 패키지 명이 된다.
+class Hello{
+//자바에서는 함수를 메소드라고 부른다.
+  public static void main(String[] args){
+     int data;
+     float score;
+     
+     //if, for, while 구문 등
+     System.out.println("~");
